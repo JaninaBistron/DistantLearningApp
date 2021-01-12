@@ -1,0 +1,33 @@
+
+<ion-content color=primary [fullscreen]="true">
+
+  <ion-header collapse="condense"></ion-header>
+
+  <div id="container">
+    
+    <ion-card color=success>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <ion-icon id="ion-icon-large" name="accessibility-outline"></ion-icon>
+          <ion-icon id="ion-icon-large" name="accessibility-outline"></ion-icon>
+          <ion-icon id="ion-icon-large" name="accessibility-outline"></ion-icon>
+        </ion-card-subtitle>
+        <ion-card-title><br>Melde dich an</ion-card-title>
+      </ion-card-header> 
+      <ion-card-content>
+      </ion-card-content>
+    </ion-card>
+    
+    <ion-card>
+      <ion-card-content>
+        <ion-input placeholder=" Name"></ion-input>
+        <ion-input type="password" placeholder=" Passwort"></ion-input>
+        <ion-button fill="outline" slot="end" routerLink="/start" routerDirection="forward">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+</ion-content>

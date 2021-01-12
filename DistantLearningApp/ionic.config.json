@@ -1,0 +1,7 @@
+{
+  "name": "HomeSchool",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

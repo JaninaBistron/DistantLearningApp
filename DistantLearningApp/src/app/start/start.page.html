@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Wähle das Fach</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div id="container">
+  
+    <ion-card color=primary routerLink="/tasks" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-subtitle></ion-card-subtitle>
+        <ion-card-title><ion-icon id="ion-icon" name="calculator-outline"></ion-icon>Mathe</ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card color=danger>
+      <ion-card-header>
+        <ion-card-subtitle></ion-card-subtitle>
+        <ion-card-title><ion-icon id="ion-icon" name="text-outline"></ion-icon>Deutsch</ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header color=secondary>
+        <ion-card-subtitle></ion-card-subtitle>
+        <ion-card-title><ion-icon id="ion-icon" name="earth-outline"></ion-icon>Englisch</ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+  <ion-button fill="outline" slot="end" routerLink="/home" routerDirection="back">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </ion-button>
+
+  </div>
+
+</ion-content>

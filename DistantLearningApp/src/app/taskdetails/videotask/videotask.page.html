@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color=primary><ion-icon id="ion-icon-title" name="videocam-outline"></ion-icon>Aufgabenname</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div id="container">
+
+    <ion-card routerLink="videotask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <img src="assets/graphics/platzhaltervideo.png" class="picture" />
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-text>Random video (e.g. a video of the teacher explaining a task) and random text (like a task or a special
+          page in a book or whatever). Checkbox and question mark can be activated and deactivated. Teacher gets a message
+          if someone presses "?"</ion-text>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-button color=success slot="end" routerDirection="back">
+          <ion-icon name="checkmark-outline"></ion-icon>
+        </ion-button>
+        <ion-button color=danger fill="outline" slot="end" routerDirection="back">
+          <ion-icon name="help-outline" color=danger></ion-icon>
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card routerLink="videotask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="mail-outline" color=danger id="ion-icon-large"></ion-icon>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-text>Teacher contact children directly (via phone) or send her/ him a message (video, audio, picture, text).
+          Such messages will be marked in the task list and presented below the task (in a light red colored box). </ion-text>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-button color=success fill="outline" slot="end" routerDirection="back">
+          <ion-icon name="checkmark-outline"></ion-icon>
+        </ion-button>
+        <ion-button color=danger fill="outline" slot="end" routerDirection="back">
+          <ion-icon name="help-outline"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-button fill="outline" slot="end" routerLink="/taskdetails" routerDirection="back">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  
+  </div>
+
+</ion-content>

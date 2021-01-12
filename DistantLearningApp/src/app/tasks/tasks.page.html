@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color=primary>
+    <ion-title><ion-icon id="ion-icon-title" name="calculator-outline"></ion-icon>Mathe</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div id="container">
+  
+    <ion-card color=primary routerLink="/tasks" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-text id="ion-text-large">1</ion-text><ion-text id=ion-text-small>Einer</ion-text>
+          <ion-icon id="ion-icon-right" name="checkbox-outline" color=success></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card color=primary routerLink="/taskdetails"  routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-text id="ion-text-large">2</ion-text><ion-text id=ion-text-small>Zehner</ion-text>
+          <ion-icon id="ion-icon-right" name="square-outline"></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card color=primary routerLink="/tasks" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-text id="ion-text-large">3</ion-text><ion-text id=ion-text-small>Rechnen</ion-text>
+          <ion-icon id="ion-icon-right" name="square-outline"></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-button fill="outline" slot="end" routerLink="/start" routerDirection="back">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+  </div>
+
+</ion-content>

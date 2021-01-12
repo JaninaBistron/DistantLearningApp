@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color=primary><ion-icon id="ion-icon-title" name="calculator-outline"></ion-icon>Zehner</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color=primary>
+  
+  <div id="container">
+
+    <ion-card routerLink="videotask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name=videocam-outline color=primary></ion-icon>
+          <ion-icon id="ion-icon-right" name="mail-outline" color=danger></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card routerLink="texttask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name=reader-outline color=primary></ion-icon>
+          <ion-icon id="ion-icon-right" name="checkbox-outline" color=success></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card routerLink="audiotask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name=volume-high-outline color=primary></ion-icon>
+          <ion-icon color=primary id="ion-icon-right" name="square-outline"></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card routerLink="texttask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name=reader-outline color=primary></ion-icon>
+          <ion-icon color=primary id="ion-icon-right" name="square-outline"></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-card routerLink="phototask" routerDirection="forward">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name=image-outline color=primary></ion-icon>
+          <ion-icon color=primary id="ion-icon-right" name="square-outline"></ion-icon>
+        </ion-card-title>
+      </ion-card-header> 
+    </ion-card>
+
+    <ion-button fill="outline" color=light slot="end" routerLink="/tasks" routerDirection="back">
+      <ion-icon name="arrow-back-outline" color=light></ion-icon>
+    </ion-button>
+
+  </div>
+
+</ion-content>
